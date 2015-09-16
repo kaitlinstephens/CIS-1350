@@ -1,6 +1,12 @@
 /*!
  * Modernizr v2.0.6
  * http://www.modernizr.com
+ 
+ <!--
+      CIS 1350 - Tutorial 1
+      Author: Kaitlin Stephens
+      Date:0902015
+        -->
  *
  * Copyright (c) 2009-2011 Faruk Ates, Paul Irish, Alex Sexton
  * Dual-licensed under the BSD or MIT licenses: www.modernizr.com/license/
