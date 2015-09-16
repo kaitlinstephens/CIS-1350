@@ -1,3 +1,5 @@
+<!doctype html>
+
 /*!
  * Modernizr v2.0.6
  * http://www.modernizr.com
@@ -1120,3 +1122,5 @@ window.Modernizr = (function( window, document, undefined ) {
     return Modernizr;
 
 })(this, this.document);
+
+</html>
