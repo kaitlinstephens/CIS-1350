@@ -1,0 +1,38 @@
+/*
+    Wireless
+    Layout Style Sheet
+
+    <!--
+     Case 3 Stylesheet
+     Kaitlin Stephens
+     09/23/2015
+   -->
+*/
+
+/* body */
+
+body {
+      background-color: #e6e6fa;
+      font-family: Arial, sans-serif;
+      font-size: 1.2em
+}
+
+
+/* Heading styles */
+
+h2 {
+    color: green;
+    word-spacing: .5em;
+}
+
+
+
+h3 {
+      color: maroon;
+      font-size: 1.3em;
+     text-align: right;
+     text-transform: uppercase
+     font-family: Times New Roman, sans-serif;
+
+
+}
