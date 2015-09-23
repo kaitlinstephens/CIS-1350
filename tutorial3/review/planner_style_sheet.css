@@ -1,0 +1,46 @@
+/*
+    Planner
+    Layout Style Sheet
+
+    <!--
+     Tutorial 3
+     Kaitlin Stephens
+     09/23/2015
+   -->
+*/
+
+/* body */
+
+body {
+      background-color: white;
+      font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+
+
+/* Heading styles */
+
+h1 {
+    background-color: white;
+    color: navy;
+    text-align: center;
+  }
+
+/* paragraph */
+
+p {
+    color: black;
+  }
+
+/* footer */
+
+footer {
+    color: maroon;
+    background-color: white;
+    }
+
+h2 {
+      background-color: orange;
+      color: teal;
+      text-align: horizontal
+}
