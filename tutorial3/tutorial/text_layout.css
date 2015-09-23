@@ -1,0 +1,56 @@
+/*
+    Classic Taxi
+    Layout Style Sheet
+
+    <!--
+     Tutorial 3
+     Kaitlin Stephens
+     09/23/2015
+   -->
+*/
+
+/* body */
+
+body {
+      background-color: white;
+      font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+/* links */
+a {
+    color: orange;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+/* Heading styles */
+
+h1 {
+    background-color: orange;
+    color: black;
+    font-size:2.5em;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: .5em;
+}
+
+/* paragraph */
+
+p {
+    color: saddlebrown;
+    line-height: 1.5em;
+    text-indent: 3em;
+}
+
+/* footer */
+
+footer {
+    color: saddlebrown;
+    background-color: palegoldenrod;
+    font-size: .7em;
+}
+
+h2 {
+      background-color: chocolate;
+      color: white;
+}
