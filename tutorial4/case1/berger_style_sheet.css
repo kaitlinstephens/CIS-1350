@@ -1,0 +1,43 @@
+/*
+    Planner
+    Layout Style Sheet
+
+    <!--
+     Tutorial 4
+     Kaitlin Stephens
+     09/30/2015
+   -->
+*/
+
+/* body */
+
+body {
+      background-color: black;
+      color: white;
+      font-size: 1.2em;
+      font-family: Arial, sans-serif;
+      margin-right: 10em;
+      margin-left: 10em;
+}
+
+
+
+/* Heading styles */
+
+h1 {
+    color: orange;
+    text-align: center;
+  }
+
+
+/* footer */
+
+footer {
+    color: orange;
+    text-align: center;
+    }
+
+h2 {
+      color: orange;
+      text-align: center;
+}
