@@ -1,0 +1,54 @@
+/*
+    Consult
+    Layout Style Sheet
+
+    <!--
+     Tutorial 5 Style Sheet
+     Kaitlin Stephens
+     10/5/2015
+   -->
+*/
+
+/* body */
+
+body {
+      font-size: 1.5em;
+      font-family: Georgia, serif;
+      line-height: 1.5em;
+}
+
+
+/* Heading styles */
+
+h1 {
+    color: navy;
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+    border-bottom-width: 2px;
+  }
+
+
+/* footer */
+
+footer {
+    color: navy;
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration: overline;
+    }
+
+h3 {
+      color: teal;
+      text-transform: uppercase;
+    }
+
+
+img  {
+    float: right;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    margin-left: 10px;
+    }
