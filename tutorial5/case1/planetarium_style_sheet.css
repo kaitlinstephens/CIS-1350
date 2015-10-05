@@ -1,0 +1,61 @@
+/*
+    Planetarium
+    Layout Style Sheet
+
+    <!--
+     Review 5 Style Sheet
+     Kaitlin Stephens
+     10/5/2015
+   -->
+*/
+
+/* body */
+
+body {
+      background-color: black;
+      color: white;
+      font-size: 1.2em;
+      font-family: Arial, sans-serif;
+
+          }
+
+
+/* Heading styles */
+
+h1 {
+    text-transform: uppercase
+    text-decoration: underline;
+    text-decoration: overline;
+    color: goldenrod;
+    display: block;
+    }
+
+
+img  {
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    margin-left: 0px;
+    }
+
+    h2 {
+          color: goldenrod;
+          text-transform: uppercase;
+        }
+
+
+    h3 {
+        color: goldenrod;
+
+    }
+
+    footer {
+        color: navy;
+        display: block;
+        text-align: center;
+        padding-top: 10px;
+        border-bottom-style: solid;
+        border-bottom-color: goldenrod;
+        border-width: 4px;
+            }
