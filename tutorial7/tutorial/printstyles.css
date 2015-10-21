@@ -25,7 +25,3 @@ a {
     color: blue;
 }
 
-/* removes images from printout */
-img {
-    display: none;
-}
