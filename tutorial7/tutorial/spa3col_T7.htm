@@ -1,13 +1,43 @@
 <!DOCTYPE html>
 <html>
   <head>
-	<!-- 
+	<!--
 		Tutorial 7
-		Author: 
-		Date: 
+		Author: Kaitlin Stephens
+		Date: 10/21/2015
 	-->
 
+/* hides elements */
+
+nav, header {
+    display: none;
+}
+
+@page {
+    size: 8.5in 11in;
+    margin: 0.5in;
+}
+
+/* formats page for printing */
+body {
+    color: black;
+    background-color: white;
+    background-image: none;
+    font-size: 12pt;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 120%;
+}
+
+/* sets links to default colors */
+a {
+    text-decoration: underline;
+    color: blue;
+}
+
+
 <title>Fiji Sunset Spa and Resort</title>
+
+<link rel= "stylesheet" href= "printstyles.css" type= "text/css" media- "print"/>
 
 <style type="text/css" media="screen">
 
@@ -22,7 +52,104 @@
     font-family: verdana, Arial, Helvetica, sans-serif;
 }
 
+#container {
+    width: 90%auto;margin: 10px auto;
+    border: 2px solid black;
+    border-radius: 22px;
+}
 
+header {
+    background-color: darkkhaki;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+
+nav {
+    padding: 0.5em;
+    background-color: darkkhaki;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    list-style-type: none;
+}
+
+nav a {
+    padding: 0.25em;
+    color: #5c4033;
+    font-weight: bold;
+    text-decoration: none;
+    }
+
+nav a:hover {
+    color: black;
+    background-color: goldenrod;
+}
+
+#activities {
+    width: 20%;
+    float: left;
+    background-color: goldenrod;
+    color: white;
+}
+
+#activities h3, spa h2 {
+    margin-bottom: 0.5em;
+    color: white;
+    background-color: goldenrod;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#activities p {
+    padding: 0 1% 1% 5%
+}
+
+#main {
+    padding: 0.5%;
+    margin: 0 20% 0 20%;
+}
+
+#main h1 {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+#activities p, #main p {
+    margin-bottom: 1em;
+    text-indent: 2em;
+}
+
+#spa {
+    width: 20%auto;color: white;
+    background-color: goldenrod;
+    float: right;
+}
+
+#spa ul {
+    padding: 1em;
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+#spa ul li {
+    margin-bottom: 1em;
+}
+
+footer {
+    margin-top: 1em;
+    padding: 1em auto;
+    border-top: solid 2px black;
+    clear: both;
+    font-weight: bold;
+    text-align: center;
+}
+
+figure {
+    text-align: center;
+}
 
 </style>
 
@@ -30,6 +157,7 @@
 
 <body>
 
+<div id= "container">
 <header>
 
 <p><img src="images/fijispa.jpg" alt="Fiji Spa - outdoor massage" /></p>
@@ -68,7 +196,7 @@
 <h2>Get Spa-tacular</h2>
 <ul>
 <li>Enjoy a relaxing outdoor massage under the shelter of a hut, on the beach. Our Registered Massage Therapists offer a variety of treatments.</li>
-<li>For rejuvenating your body, we offer both a hydrating body wrap, a seaweed wrap, and an exfoliating body wrap.</li> 
+<li>For rejuvenating your body, we offer both a hydrating body wrap, a seaweed wrap, and an exfoliating body wrap.</li>
 <li>Couples massages are available both outdoors and in the privacy of your room.</li>
 <li>We also offer facials for both men and women.</li>
 </ul>
@@ -92,10 +220,11 @@
 <footer>
 <p>The Sundown Fiji Spa and Resort &#10043; Denarau Island North&#10043; P.O. Box 9481 &#10043;Nadi, Fiji</p>
 <p><a href="#">Directions</a> &#10074; <a href="#">Reservations</a> &#10074; <a href="#">Lunch Menu</a> &#10074; <a href="#">Dinner Menu</a> &#10074; <a href="#">Gift Cards</a> &#10074; <a href="#">Contact Us</a>
-  
-</p>  
+
+</p>
 </footer> <!-- end footer -->
 
+</div> <!--end container-->
 
 </body>
 </html>
